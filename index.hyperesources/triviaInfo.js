@@ -7,6 +7,7 @@ function getInfo() {
 	window.answerColor="#0009DB";						// Text color of answer choices (dark blue)
 	window.selectedAnswerColor = "#A847DD";				// Text color of currently selected answer (purple)
 	window.BGColorNum = 0;								// Used to choose a different circuit board color for each question
+	window.endOfQuestion = 14.5;						// Time in seconds at which question time ends
 	
 	// Set color variables
 	window.purple = "#792E6D";
