@@ -8,6 +8,8 @@ function getInfo() {
 	window.selectedAnswerColor = "#A847DD";				// Text color of currently selected answer (purple)
 	window.BGColorNum = 0;								// Used to choose a different circuit board color for each question
 	window.endOfQuestion = 14.5;						// Time in seconds at which question time ends
+	window.longTextLength = 120;						// The number of characters needed to signal a smaller font size
+	window.smallFontSize = "30px";						// Font size to use for longer questions and trivia responses
 	
 	// Set color variables
 	window.purple = "#792E6D";
